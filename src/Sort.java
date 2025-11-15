@@ -41,6 +41,12 @@ public class Sort {
     }
     public static void main(String[] args) {
         int[] arr = {8, 7, 9, 2, 3 ,1, 5, 4, 6};
+        selectionSort(arr);
+        System.out.println(Arrays.toString(arr));
+
+        bubbleSort(arr);
+        System.out.println(Arrays.toString(arr));
+
         insertionSort(arr);
         System.out.println(Arrays.toString(arr));
 
